@@ -1,33 +1,27 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        row , cols = len(matrix) , len(matrix[0])
+        if not matrix or not matrix[0]:
 
-        top ,bottom = 0 , row- 1
 
-        while top <= bottom:
-            mid = (top + bottom) // 2
-
-            if matrix[mid][-1] < target:
-                top = mid + 1
-            elif matrix[mid][0] > target:
-                bottom = mid - 1
-            else:
-                break
-
-        if not (top <= bottom):
             return False
+        m = len(matrix) 
+        n = len(matrix[0])
+        l = 0
+        h = m * n -1
+       
 
-        row = (top + bottom) // 2 
-        
-        l , r = 0 , cols-1 
-
-        while l <= r :
-            mid = (l+r) // 2
-
-            if matrix[row][mid] == target:
+        while l <= h:
+            mid = (l + h) //2 
+            row =  mid // n
+            col = mid % n
+            
+            if matrix[row][col] == target:
                 return True
-            elif matrix[row][mid] < target:
-                l = mid + 1
-            else: 
-                r = mid - 1
+            elif matrix[row][col] < target:
+                l  = mid +1
+            else :
+                h = mid -1 
         return False 
+
+
+        
