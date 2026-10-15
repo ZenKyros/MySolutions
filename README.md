@@ -12,6 +12,7 @@
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ZenKyros/MySolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ZenKyros/MySolutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/ZenKyros/MySolutions/tree/master/0151-reverse-words-in-a-string) |
 ## Linked List
@@ -24,6 +25,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ZenKyros/MySolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0142-linked-list-cycle-ii](https://github.com/ZenKyros/MySolutions/tree/master/0142-linked-list-cycle-ii) |
 ## String Matching
 |  |
@@ -41,4 +43,8 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ZenKyros/MySolutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ZenKyros/MySolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
